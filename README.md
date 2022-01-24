@@ -2,6 +2,12 @@
 
 Scales deployments in steps using HPA.
 
+![image](https://user-images.githubusercontent.com/19834040/150770081-206f2fa0-e1b0-4ba8-acab-5295a85bb983.png)
+
+Refer [controller/*controller.go](https://github.com/danishprakash/kube-step-podautoscaler/blob/main/controllers/deployment_controller.go) for implementation details and explanation for a better understanding.
+
+### Example Run
+
 For a config of kind:
 ```
 deployment: nodeservice
